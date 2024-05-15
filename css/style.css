@@ -1,0 +1,106 @@
+*{
+   padding: 0; 
+   margin: 0;
+   font-family: helvetica;
+   box-sizing: border-box;
+   color: #F0F8FF;
+}
+
+/*Cabeçalho*/
+header{
+text-align: center;
+background-color: #800000;
+color: #A52A2A;
+padding: 15px;
+border-bottom: 3px solid /*aqui vc escolhe a cor da bordinha dps*/;
+}
+
+/* Grid de Jogos*/
+.container{
+    min-height: 60vh;
+    background-color: #000000;
+    padding: 50px;
+    display: inline-block;
+}
+
+.products-containe{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;    
+}
+
+.card{
+    width: 31%;
+    margin:1% 1%;
+    padding: 15px;
+}
+
+h3{
+ color: #B22222;
+ margin-bottom: 10px;
+ font-size: 24px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn{
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+width: 100%;
+display: block;
+background-color: #A52A2A;
+padding: 15px;
+transition: 0.5s;
+border-radius: 5px;
+}
+
+.btn:hover{
+    background-color:#FF0000;
+}
+
+    #img-1{
+    background-image: url('../img/MWIII-CODHQ-TOUT.jpg');    
+    }
+
+    #img-2{
+    background-image: url('../img/Sea_of_thieves_box.jpg');
+    }
+
+    #img-3{
+    background-image: url('../img/GTAV_EGS_Artwork_1200x1600_Portrait\ Store\ Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg');
+    }
+
+    #img-4{
+    background-image: url('../img/StarCraft_II_capa.jpg');
+    }
+
+    #img-5{
+    background-image: url('../img/liesofp-1702510493314.jpg');
+    }
+
+    #img-6{
+    background-image: url('../img/270px-Devil_May_Cry_5.jpg');
+    }
+
+/*Rodapé */
+footer{
+    background-color: #800000;
+    text-align: center;
+    padding: 80px;
+    /*escolher a cor do texto*/
+border-top: 3px solid #8B0000;
+}
